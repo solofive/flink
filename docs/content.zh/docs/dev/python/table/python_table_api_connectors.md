@@ -50,7 +50,7 @@ source_ddl = """
             a VARCHAR,
             b INT
         ) WITH (
-          'connector' =' = 'kafka',
+          'connector' = 'kafka',
           'topic' = 'source_topic',
           'properties.bootstrap.servers' = 'kafka:9092',
           'properties.group.id' = 'test_3',
